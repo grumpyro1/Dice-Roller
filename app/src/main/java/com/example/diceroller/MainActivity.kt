@@ -48,9 +48,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun DiceRollerApp(){
 // fillMaxSize allows to layout the entire screen, Alignment.Center centers the components
-    DiceWithButtonAndImage(modifier = Modifier
-        .fillMaxSize()
-        .wrapContentSize(Alignment.Center)
+    DiceWithButtonAndImage(modifier = Modifier.fillMaxSize().wrapContentSize(Alignment.Center)
     )
 
 }
